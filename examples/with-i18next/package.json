@@ -1,17 +1,18 @@
 {
-  "name": "with-webpack-bundle-analyzer",
+  "name": "with-i18next",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "bundle:view": "webpack-bundle-analyzer .next/stats.json"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "latest",
+    "i18next": "^7.1.3",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "*",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "webpack-bundle-analyzer": "^2.3.0"
+    "react-i18next": "^2.2.1"
   },
   "author": "",
   "license": "ISC"
